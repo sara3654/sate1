@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #ce80bd;
+    --laranja-claro: #67d1e4;
     --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #c491e2;
+    --alto-contraste-texto: #bbdbee;
+    --alto-contraste-link: #f720ec;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #f8c1f5;
 }
 
 
@@ -24,13 +24,13 @@ section {
 
 
 .nav-link {
-    color: #dc8adf;
+    color: #030303;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -79,8 +79,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/macaco-removebg-preview.png') top right no-repeat,
+        url('img/priscesa.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -103,17 +103,17 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #c1ebb7;
 
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/fim-removebg-preview.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -121,7 +121,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #ace1ee;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -132,13 +132,13 @@ h2 {
 }
 
 .formulario button {
-    background-color: #c08bd8;
+    background-color: #e686d1;
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #9cf5c1;
 }
 .menu-acessibilidade{
     position: fixed;
